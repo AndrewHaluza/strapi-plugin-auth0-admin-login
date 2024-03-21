@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-auth0-admin-login",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Strapi plugin to add possibility authorize into Admin Panel with Auth0",
   "keywords": [
     "strapi",
