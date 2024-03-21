@@ -43,18 +43,13 @@ There are no alternatives currently and customization of Strapi Admin side is qu
 
 **This plugin basically should works with 4.x.x versions, but not tested**
 
+| Strapi Version | Supported | Tested On |
+|:--------------:|:---------:|:---------:|
+|       v3       |     ❌     |    N/A    |
+|    <=v4.16.2   |     ❓     |    N/A    |
+|    >=v4.16.2   |     ✅     |  May 2024 |
 
-| Strapi Version | Supported | Tested On     |
 
-| -------------- | --------- | ------------- |
-
-| v3             | ❌        | N/A           |
-
-| <=v4.16.2      | ❓        | N/A           |
-
-| >=v4.16.2      | ✅        | May 2024      |
-
-i
 ## ⏳ Installation
 
 Install the plugin in your Strapi project or your Strapi plugin.
