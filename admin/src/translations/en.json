@@ -1,0 +1,22 @@
+{
+  "plugin.name": "Auth0 Admin Login",
+  "plugin.description": "This plugin allows you to manage users and permissions.",
+  "SettingsPageTitle": "Auth0 Admin Login",
+  "HeaderLayout": "Configuration",
+  "loading": "Plugin settings are loading",
+
+  "pages.SettingsPage.Enabled.label": "Plugin Enabled",
+  "pages.SettingsPage.Button.save": "Save",
+  "pages.SettingsPage.header.description": "Configure the plugin",
+  "pages.SettingsPage.CallbackURL.label": "Auth0 Callback URL",
+  "pages.SettingsPage.CallbackURL.hint": "Copy the following URL and paste it into the Allowed Callback URLs field in your Auth0 provider",
+  "pages.SettingsPage.DefaultRole.label": "Default Admin Role",
+  "pages.SettingsPage.DefaultRole.hint": "Select default role for admin users",
+  "pages.SettingsPage.DefaultRole.placeholder": "Select admin role",
+
+  "role.Super Admin": "Super Admin",
+  "role.Editor": "Editor",
+  "role.Viewer": "Viewer",
+  "role.Organization": "Organization",
+  "role.Author": "Author"
+}

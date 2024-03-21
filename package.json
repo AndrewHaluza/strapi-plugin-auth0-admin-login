@@ -1,0 +1,62 @@
+{
+  "name": "strapi-plugin-auth0-admin-login",
+  "version": "1.0.0",
+  "description": "Strapi plugin to add possibility authorize into Admin Panel with Auth0",
+  "keywords": [
+    "strapi",
+    "strapi-plugin",
+    "auth0",
+    "admin login",
+    "auth",
+    "login",
+    "registration"
+  ],
+  "strapi": {
+    "name": "auth0-admin-login",
+    "displayName": "Auth0 Admin Login",
+    "description": "Adds possibility authorize into Admin Panel with Auth0",
+    "kind": "plugin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndrewHaluza/strapi-plugin-auth0-admin-login.git"
+  },
+  "homepage": "https://github.com/AndrewHaluza/strapi-plugin-auth0-admin-login.git",
+  "dependencies": {
+    "@strapi/plugin-users-permissions": "^4.16.2",
+    "@strapi/design-system": "^1.6.3",
+    "@strapi/helper-plugin": "^4.6.0",
+    "@strapi/icons": "^1.6.3",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.1",
+    "@strapi/strapi": "^4.16.2"
+  },
+  "author": {
+    "name": "Andrew Haluza",
+    "email": "nd@newerest.space",
+    "url": "https://github.com/AndrewHaluza"
+  },
+  "maintainers": [
+    {
+      "name": "Andrew Haluza",
+      "email": "nd@newerest.space",
+      "url": "https://github.com/AndrewHaluza"
+    }
+  ],
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

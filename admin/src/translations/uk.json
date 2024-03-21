@@ -1,0 +1,22 @@
+{
+  "plugin.name": "Auth0 Адмін Авторизація",
+  "plugin.description": "This plugin allows you to manage users and permissions.",
+  "SettingsPageTitle": "Auth0 Адмін Авторизація",
+  "HeaderLayout": "Конфігурація",
+  "loading": "Налаштування завантажуються...",
+
+  "pages.SettingsPage.Enabled.label": "Планіг увімкнено",
+  "pages.SettingsPage.Button.save": "Зберегти",
+  "pages.SettingsPage.header.description": "Налаштування плагіну",
+  "pages.SettingsPage.CallbackURL.label": "Auth0 Callback URL",
+  "pages.SettingsPage.CallbackURL.hint": "Скопіюйте цей URL в поле \"Callback URL\" на сторінці налаштувань провайдеру Auth0",
+  "pages.SettingsPage.DefaultRole.label": "Роль за замовчуванням",
+  "pages.SettingsPage.DefaultRole.hint": "Роль, яка буде надана користувачам, які авторизуються через Auth0",
+  "pages.SettingsPage.DefaultRole.placeholder": "Оберіть роль",
+
+  "role.Super Admin": "Супер Адмін",
+  "role.Editor": "Редактор",
+  "role.Viewer": "Переглядач",
+  "role.Organization": "Організація",
+  "role.Author": "Автор"
+}
