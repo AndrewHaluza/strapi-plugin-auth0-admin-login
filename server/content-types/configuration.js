@@ -1,9 +1,9 @@
 module.exports = {
   kind: "singleType",
-  collectionName: "authzero_admin_login_configurations",
+  collectionName: "auth0_admin_login_configurations",
   info: {
-    singularName: "authzero-admin-login-configuration",
-    pluralName: "authzero-admin-login-configurations",
+    singularName: "auth0-admin-login-configuration",
+    pluralName: "auth0-admin-login-configurations",
     displayName: "Auth0 Login Configuration",
     description: "Configuration for Auth0 Login plugin",
   },

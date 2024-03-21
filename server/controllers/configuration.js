@@ -5,7 +5,7 @@ module.exports = ({ strapi }) => ({
     const [configuration, roles] = await Promise.all([
       strapi
         .query(
-          "plugin::authzero-admin-login.authzero-admin-login-configuration"
+          "plugin::auth0-admin-login.auth0-admin-login-configuration"
         )
         .findOne({
           populate: {
@@ -27,7 +27,7 @@ module.exports = ({ strapi }) => ({
     const isCouldBeEnabled = defaultRole !== null;
 
     const pluginConfiguration = strapi.query(
-      "plugin::authzero-admin-login.authzero-admin-login-configuration"
+      "plugin::auth0-admin-login.auth0-admin-login-configuration"
     );
 
     const savedConfiguration = await pluginConfiguration.findOne();

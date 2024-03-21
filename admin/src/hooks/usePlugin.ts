@@ -19,7 +19,7 @@ export const usePlugin = () => {
     refetch,
     error,
   } = useQuery(["admin"], async () => {
-    const { data } = await get(`/authzero-admin-login/configuration`);
+    const { data } = await get(`/auth0-admin-login/configuration`);
 
     return data;
   });
@@ -41,7 +41,7 @@ export const usePlugin = () => {
 
   const submit = useMutation(
     ({ body }: { body: { defaultRole: number } }) =>
-      put(`/authzero-admin-login/configuration`, body),
+      put(`/auth0-admin-login/configuration`, body),
     {
       onSuccess: () =>
         handleSuccess(

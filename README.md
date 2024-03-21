@@ -31,13 +31,13 @@ These are the primary features that are finished or currently being worked on:
 
 - [x] Choose Admin Role for registered via such way
 
-- [x] Localization-friendly. Supported EN, UK and allows add custom translations. Localization key for roles `authzero-admin-login.role.$ROLE$`
+- [x] Localization-friendly. Supported EN, UK and allows add custom translations. Localization key for roles `auth0-admin-login.role.$ROLE$`
 
 ## 🤔 Motivation
 
 The purpose of this plugin is to have a easy way to login users via secured Auth0 or register if it's new.
 
-There are no alternatives currently and customization of Strapi Admin side is quite hard.
+There are no alternatives currently and customization of Strapi Admin side is quite hard. 
 
 ## 🖐 Requirements
 
@@ -77,7 +77,7 @@ module.exports = () => {
 ```
 ### Step 2: configure mandatory fields on UI
 
-On the UI configuration page - [http://localhost:1337/admin/plugins/authzero-admin-login](http://localhost:1337/admin/plugins/authzero-admin-login)
+On the UI configuration page - [http://localhost:1337/admin/plugins/auth0-admin-login](http://localhost:1337/admin/plugins/auth0-admin-login)
 - Setup default role and enable toggle
 
 

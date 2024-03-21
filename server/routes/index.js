@@ -22,7 +22,7 @@ module.exports = [
   {
     handler: "configurationController.getConfiguration",
     method: "GET",
-    path: "/authzero-admin-login/configuration",
+    path: "/auth0-admin-login/configuration",
     config: {
       prefix: "",
       middlewares: ["plugin::users-permissions.rateLimit"],
@@ -31,7 +31,7 @@ module.exports = [
   {
     handler: "configurationController.setConfiguration",
     method: "PUT",
-    path: "/authzero-admin-login/configuration",
+    path: "/auth0-admin-login/configuration",
     config: {
       prefix: "",
       middlewares: ["plugin::users-permissions.rateLimit"],
