@@ -9,7 +9,7 @@ const path = require("path");
 module.exports = ({ strapi }) => ({
   async getLoginPage(ctx) {
     const configuration = await strapi
-      .query("plugin::auth0-admin-login.authzero-admin-login-configuration")
+      .query("plugin::auth0-admin-login.auth0-admin-login-configuration")
       .findOne({
         populate: {
           role: { select: "id" },
@@ -35,7 +35,7 @@ module.exports = ({ strapi }) => ({
     let adminUser = await adminUserService.findOneByEmail(user.email);
 
     if (adminUser) {
-      if (!adminUser.blocked) {
+      if (adminUser.blocked) {
         throw new ForbiddenError(
           "Your account has been blocked by an administrator"
         );

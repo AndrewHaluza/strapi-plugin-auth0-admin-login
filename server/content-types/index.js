@@ -1,5 +1,5 @@
 "use strict";
 
 module.exports = {
-  "authzero-admin-login-configuration": { schema: require("./configuration") },
+  "auth0-admin-login-configuration": { schema: require("./configuration") },
 };
