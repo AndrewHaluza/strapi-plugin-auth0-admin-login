@@ -75,7 +75,20 @@ module.exports = () => {
   };
 };
 ```
-### Step 2: configure mandatory fields on UI
+
+### Step 2: Rebuild Admin Panel UI
+
+```bash
+
+npm run build
+
+// or depend on your setup
+
+strapi build
+
+```
+
+### Step 3: configure mandatory fields on UI
 
 On the UI configuration page - [http://localhost:1337/admin/plugins/auth0-admin-login](http://localhost:1337/admin/plugins/auth0-admin-login)
 - Setup default role and enable toggle
