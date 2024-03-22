@@ -3,23 +3,23 @@
 Adds possibility to authorize into Strapi Admin Panel with Auth0.
 
 
-- [🚦 Current Status](#current-status)
+- [🚦Current Status](#current-status)
 
-- [✨ Features](#features)
+- [✨Features](#features)
 
-- [🤔 Motivation](#motivation)
+- [🤔Motivation](#motivation)
 
-- [🖐 Requirements](#requirements)
+- [🖐Requirements](#requirements)
 
-- [⏳ Installation](#installation)
+- [⏳Installation](#installation)
 
-- [🔧 Configuration](#configuration)
+- [🔧Configuration](#configuration)
 
-- [Contributing](#contributing)
+- [🙋Contributing](#contributing)
 
-- [License](#license)
+- [⚖️License](#license)
 
-## 🚦 Current Status
+## 🚦Current Status
 
 For more information on contributing please see [the contrib message below](#contributing).
 
@@ -33,13 +33,13 @@ These are the primary features that are finished or currently being worked on:
 
 - [x] Localization-friendly. Supported EN, UK and allows add custom translations. Localization key for roles `auth0-admin-login.role.$ROLE$`
 
-## 🤔 Motivation
+## 🤔Motivation
 
 The purpose of this plugin is to have a easy way to login users via secured Auth0 or register if it's new.
 
 There are no alternatives currently and customization of Strapi Admin side is quite hard. 
 
-## 🖐 Requirements
+## 🖐Requirements
 
 **This plugin basically should works with 4.x.x versions, but not tested**
 
@@ -76,7 +76,7 @@ module.exports = () => {
 };
 ```
 
-### Step 2: Rebuild Admin Panel UI
+### Step 2: rebuild Admin Panel UI
 
 ```bash
 
@@ -102,11 +102,11 @@ On the UI configuration page - [http://localhost:1337/admin/plugins/auth0-admin-
 ![Strapi Auth0 Configuration Page](/docs/auth0-configuration.png)
 
 
-## Contributing
+## 🙋Contributing
 
 Please open issues before making a pull request so that we can talk about what you want to change for the best results.
 Issues are submitted to [https://github.com/AndrewHaluza/strapi-plugin-auth0-admin-login/issues](https://github.com/AndrewHaluza/strapi-plugin-auth0-admin-login/issues). Please provide as much information as possible about the bug or feature request.
 
-## License
+## ⚖️License
 
 MIT
