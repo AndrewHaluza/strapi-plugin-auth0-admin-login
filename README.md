@@ -50,7 +50,7 @@ There are no alternatives currently and customization of Strapi Admin side is qu
 |    >=v4.16.2   |     ✅     |  May 2024 |
 
 
-## ⏳ Installation
+## ⏳Installation
 
 Install the plugin in your Strapi project or your Strapi plugin.
 
@@ -60,7 +60,7 @@ npm install strapi-plugin-auth0-admin-login
 
 ```
 
-## 🔧 Configuration
+## 🔧Configuration
 
 ### Step 1: standard strapi plugin config
 
