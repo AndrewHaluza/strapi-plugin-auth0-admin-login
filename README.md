@@ -96,7 +96,7 @@ On the UI configuration page - [http://localhost:1337/admin/plugins/auth0-admin-
 
 ![Plugin Configuration Page](/docs/plugin-configurations.png)
 
-- Copy `Auth0 Callback URL` and paste it to `The redirect URL to your front-end app` field on the Strapi Auth0 Provider Configuration page - [http://localhost:1337admin/settings/users-permissions/providers](http://localhost:1337admin/settings/users-permissions/providers)
+- Copy `Auth0 Callback URL` and paste it to `The redirect URL to your front-end app` field on the Strapi Auth0 Provider Configuration page - [http://localhost:1337/admin/settings/users-permissions/providers](http://localhost:1337/admin/settings/users-permissions/providers)
 
 
 ![Strapi Auth0 Configuration Page](/docs/auth0-configuration.png)
